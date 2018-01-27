@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:src="@drawable/schoolpic4"
+        android:scaleType="centerCrop"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:src="@drawable/schoolpic3"
+        android:layout_alignParentTop="true"
+        android:id="@+id/pic3"
+        android:scaleType="centerCrop"/>
+    <ImageView
+        android:layout_width="275dp"
+        android:layout_height="375dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/schoolpic1"
+        android:layout_alignParentBottom="true"
+        android:alpha=".75"
+        android:id="@+id/imageView" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pic3"
+        android:text="@string/Address"
+        android:autoLink="map"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="5dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="25dp"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/textView"
+        tools:ignore="UnusedAttribute" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pic3"
+        android:text="@string/tel_650_555_5555"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="105dp"
+        android:layout_marginRight="5dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="25dp"
+        android:layout_alignParentEnd="true"
+        tools:ignore="UnusedAttribute"
+        android:autoLink="phone"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pic3"
+        android:text="http://www.udacity.com"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="145dp"
+        android:layout_marginRight="5dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="25dp"
+        android:layout_alignParentEnd="true"
+        tools:ignore="UnusedAttribute"
+        android:autoLink="web"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/udacity"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:layout_marginBottom="75dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginStart="130dp"
+        tools:ignore="UnusedAttribute" />
+
+
+</RelativeLayout>
